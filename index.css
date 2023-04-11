@@ -1,0 +1,154 @@
+/* ------------------------------------Tag name-------------------------------------------------- */
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+}
+
+img{
+    position: absolute;
+}
+
+main{
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    opacity: 1;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+a{
+    color:hsl(0, 100%, 74%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h1{
+    color: hsl(240, 6%, 97%);
+    font-weight: 700;
+    text-align: center;
+}
+
+h5{
+    color:hsl(240, 6%, 97%);
+    background-color:hsl(248, 32%, 49%);
+    border: 0px solid black;
+    border-radius: 10px;
+    box-shadow: 1px 10px 2px 1px rgba(44, 44, 73, 0.2);
+    height: 8%;
+    padding-top: 20px;
+    text-align: center;
+    opacity: 1;
+    width: 75%;
+}
+
+h6{
+    color:hsl(249, 10%, 26%);
+    font-weight: 400;
+    text-align: center;
+    margin-top: -1px;
+}
+
+form{
+    background-color: hsl(240, 6%, 97%);
+    border-radius: 10px;
+    height: 380px;
+    text-align: left;
+    display: grid;
+    padding: 20px;
+    width: 70%;
+}
+
+input{
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid hsl(0, 100%, 74%);
+    font-family: 'Poppins', sans-serif;
+    color:hsl(249, 10%, 26%);
+    font-weight: 600;
+    font-size: 16px;
+    padding: 5px;
+}
+
+button{
+    background-color:  hsl(154, 59%, 51%);
+    border-style: none;
+    border-radius: 10px;
+    color:  hsl(240, 6%, 97%);
+    font-weight: 700;
+    height: 40px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color:hsl(0, 100%, 74%);
+}
+/* ------------------------------------Class name------------------------------------------------- */
+.box1{
+    width: 35%;
+    margin: 90px;
+    text-align: center;
+}
+
+.box2{
+    width: 50%;
+    height: 500px;
+    margin-left: 20px;
+}
+
+p[class=paragraph1]{
+    width: 500px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(240, 6%, 97%);
+}
+
+span[class=h5Style]{
+    font-weight: 400;
+}
+
+#errorIcon1{
+    position:absolute;
+    left: 980px;
+    top: 190px;
+    visibility: hidden;
+}
+
+#errorIcon2{
+    position:absolute;
+    left: 980px;
+    top: 261px;
+    visibility: hidden;
+}
+
+#errorIcon3{
+    position:absolute;
+    left: 980px;
+    top: 333px;
+    visibility: hidden;
+}
+
+#errorIcon4{
+    position:absolute;
+    left: 980px;
+    top: 405px;
+    visibility: hidden;
+}
+
+p[class=errorMsg]{
+    text-align: right;
+    margin-top: -30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-family: 5px;
+    height: 10px;
+    font-size: 10px;
+    color:hsl(0, 100%, 74%);
+    visibility: hidden;
+}
+/* ------------------------------------Id name------------------------------------------------- */
